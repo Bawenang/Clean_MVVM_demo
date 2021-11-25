@@ -1,0 +1,8 @@
+github "ReactiveX/RxSwift" "6.2.0"
+github "Alamofire/Alamofire" ~> 5.4
+github "Swinject/Swinject"
+github "Swinject/SwinjectStoryboard"
+github "hackiftekhar/IQKeyboardManager" "v6.5.6"
+github "malcommac/SwiftDate" ~> 6.0
+github "RxSwiftCommunity/RxAlamofire" ~> 6.1
+

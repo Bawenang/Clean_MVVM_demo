@@ -3,10 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8B22714274E745200C2492B /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22709274E745200C2492B /* Alamofire.xcframework */; };
+		F8B22715274E745200C2492B /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22709274E745200C2492B /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B22716274E745200C2492B /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270A274E745200C2492B /* RxSwift.xcframework */; };
+		F8B22717274E745200C2492B /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270A274E745200C2492B /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B2271A274E745200C2492B /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270C274E745200C2492B /* RxCocoa.xcframework */; };
+		F8B2271B274E745200C2492B /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270C274E745200C2492B /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B2271C274E745200C2492B /* SwinjectStoryboard.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270D274E745200C2492B /* SwinjectStoryboard.xcframework */; };
+		F8B2271D274E745200C2492B /* SwinjectStoryboard.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270D274E745200C2492B /* SwinjectStoryboard.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B2271E274E745200C2492B /* SwiftDate.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270E274E745200C2492B /* SwiftDate.xcframework */; };
+		F8B2271F274E745200C2492B /* SwiftDate.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270E274E745200C2492B /* SwiftDate.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B22720274E745200C2492B /* Swinject.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270F274E745200C2492B /* Swinject.xcframework */; };
+		F8B22721274E745200C2492B /* Swinject.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270F274E745200C2492B /* Swinject.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B22722274E745200C2492B /* RxAlamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22710274E745200C2492B /* RxAlamofire.xcframework */; };
+		F8B22723274E745200C2492B /* RxAlamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22710274E745200C2492B /* RxAlamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B22724274E745200C2492B /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22711274E745200C2492B /* RxRelay.xcframework */; };
+		F8B22725274E745200C2492B /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22711274E745200C2492B /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B22728274E745200C2492B /* IQKeyboardManagerSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22713274E745200C2492B /* IQKeyboardManagerSwift.xcframework */; };
+		F8B22729274E745200C2492B /* IQKeyboardManagerSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22713274E745200C2492B /* IQKeyboardManagerSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B22737274F005D00C2492B /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22712274E745200C2492B /* RxBlocking.xcframework */; };
+		F8B22738274F005E00C2492B /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270C274E745200C2492B /* RxCocoa.xcframework */; };
+		F8B22739274F005E00C2492B /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270A274E745200C2492B /* RxSwift.xcframework */; };
+		F8B2273A274F005E00C2492B /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270B274E745200C2492B /* RxTest.xcframework */; };
+		F8B2273B274F005E00C2492B /* SwiftDate.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270E274E745200C2492B /* SwiftDate.xcframework */; };
+		F8B2275E274F2D4700C2492B /* cleanMVVMIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2275D274F2D4700C2492B /* cleanMVVMIntegrationTests.swift */; };
+		F8B22765274F2F3600C2492B /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22709274E745200C2492B /* Alamofire.xcframework */; };
+		F8B22766274F2F3600C2492B /* RxAlamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22710274E745200C2492B /* RxAlamofire.xcframework */; };
+		F8B22767274F2F3600C2492B /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22712274E745200C2492B /* RxBlocking.xcframework */; };
+		F8B22768274F2F3600C2492B /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270C274E745200C2492B /* RxCocoa.xcframework */; };
+		F8B22769274F2F3600C2492B /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270A274E745200C2492B /* RxSwift.xcframework */; };
+		F8B2276A274F2F3600C2492B /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270B274E745200C2492B /* RxTest.xcframework */; };
+		F8B2276B274F2F3600C2492B /* SwiftDate.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270E274E745200C2492B /* SwiftDate.xcframework */; };
 		F8DD42B1274DE3DA001C49B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD42B0274DE3DA001C49B8 /* AppDelegate.swift */; };
 		F8DD42B3274DE3DA001C49B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD42B2274DE3DA001C49B8 /* SceneDelegate.swift */; };
 		F8DD42B5274DE3DA001C49B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD42B4274DE3DA001C49B8 /* ViewController.swift */; };
@@ -18,6 +49,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F8B22760274F2D4700C2492B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8DD42A5274DE3D9001C49B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8DD42AC274DE3D9001C49B8;
+			remoteInfo = cleanMVVM;
+		};
 		F8DD42C4274DE3DF001C49B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F8DD42A5274DE3D9001C49B8 /* Project object */;
@@ -34,7 +72,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F8B2272A274E745200C2492B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8B22723274E745200C2492B /* RxAlamofire.xcframework in Embed Frameworks */,
+				F8B22715274E745200C2492B /* Alamofire.xcframework in Embed Frameworks */,
+				F8B2271D274E745200C2492B /* SwinjectStoryboard.xcframework in Embed Frameworks */,
+				F8B22725274E745200C2492B /* RxRelay.xcframework in Embed Frameworks */,
+				F8B2271B274E745200C2492B /* RxCocoa.xcframework in Embed Frameworks */,
+				F8B2271F274E745200C2492B /* SwiftDate.xcframework in Embed Frameworks */,
+				F8B22721274E745200C2492B /* Swinject.xcframework in Embed Frameworks */,
+				F8B22717274E745200C2492B /* RxSwift.xcframework in Embed Frameworks */,
+				F8B22729274E745200C2492B /* IQKeyboardManagerSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F8B22709274E745200C2492B /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		F8B2270A274E745200C2492B /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		F8B2270B274E745200C2492B /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		F8B2270C274E745200C2492B /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		F8B2270D274E745200C2492B /* SwinjectStoryboard.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwinjectStoryboard.xcframework; path = Carthage/Build/SwinjectStoryboard.xcframework; sourceTree = "<group>"; };
+		F8B2270E274E745200C2492B /* SwiftDate.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftDate.xcframework; path = Carthage/Build/SwiftDate.xcframework; sourceTree = "<group>"; };
+		F8B2270F274E745200C2492B /* Swinject.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Swinject.xcframework; path = Carthage/Build/Swinject.xcframework; sourceTree = "<group>"; };
+		F8B22710274E745200C2492B /* RxAlamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxAlamofire.xcframework; path = Carthage/Build/RxAlamofire.xcframework; sourceTree = "<group>"; };
+		F8B22711274E745200C2492B /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		F8B22712274E745200C2492B /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		F8B22713274E745200C2492B /* IQKeyboardManagerSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IQKeyboardManagerSwift.xcframework; path = Carthage/Build/IQKeyboardManagerSwift.xcframework; sourceTree = "<group>"; };
+		F8B2275B274F2D4600C2492B /* cleanMVVMIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cleanMVVMIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B2275D274F2D4700C2492B /* cleanMVVMIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleanMVVMIntegrationTests.swift; sourceTree = "<group>"; };
+		F8B2275F274F2D4700C2492B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DD42AD274DE3DA001C49B8 /* cleanMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cleanMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DD42B0274DE3DA001C49B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DD42B2274DE3DA001C49B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,10 +126,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F8B22758274F2D4600C2492B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B22765274F2F3600C2492B /* Alamofire.xcframework in Frameworks */,
+				F8B22766274F2F3600C2492B /* RxAlamofire.xcframework in Frameworks */,
+				F8B22767274F2F3600C2492B /* RxBlocking.xcframework in Frameworks */,
+				F8B22768274F2F3600C2492B /* RxCocoa.xcframework in Frameworks */,
+				F8B22769274F2F3600C2492B /* RxSwift.xcframework in Frameworks */,
+				F8B2276A274F2F3600C2492B /* RxTest.xcframework in Frameworks */,
+				F8B2276B274F2F3600C2492B /* SwiftDate.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8DD42AA274DE3D9001C49B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B22722274E745200C2492B /* RxAlamofire.xcframework in Frameworks */,
+				F8B22714274E745200C2492B /* Alamofire.xcframework in Frameworks */,
+				F8B2271C274E745200C2492B /* SwinjectStoryboard.xcframework in Frameworks */,
+				F8B22724274E745200C2492B /* RxRelay.xcframework in Frameworks */,
+				F8B2271A274E745200C2492B /* RxCocoa.xcframework in Frameworks */,
+				F8B2271E274E745200C2492B /* SwiftDate.xcframework in Frameworks */,
+				F8B22720274E745200C2492B /* Swinject.xcframework in Frameworks */,
+				F8B22716274E745200C2492B /* RxSwift.xcframework in Frameworks */,
+				F8B22728274E745200C2492B /* IQKeyboardManagerSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +160,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B22737274F005D00C2492B /* RxBlocking.xcframework in Frameworks */,
+				F8B22738274F005E00C2492B /* RxCocoa.xcframework in Frameworks */,
+				F8B22739274F005E00C2492B /* RxSwift.xcframework in Frameworks */,
+				F8B2273A274F005E00C2492B /* RxTest.xcframework in Frameworks */,
+				F8B2273B274F005E00C2492B /* SwiftDate.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +178,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8B22708274E745100C2492B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B22709274E745200C2492B /* Alamofire.xcframework */,
+				F8B22713274E745200C2492B /* IQKeyboardManagerSwift.xcframework */,
+				F8B22710274E745200C2492B /* RxAlamofire.xcframework */,
+				F8B22712274E745200C2492B /* RxBlocking.xcframework */,
+				F8B2270C274E745200C2492B /* RxCocoa.xcframework */,
+				F8B22711274E745200C2492B /* RxRelay.xcframework */,
+				F8B2270A274E745200C2492B /* RxSwift.xcframework */,
+				F8B2270B274E745200C2492B /* RxTest.xcframework */,
+				F8B2270E274E745200C2492B /* SwiftDate.xcframework */,
+				F8B2270F274E745200C2492B /* Swinject.xcframework */,
+				F8B2270D274E745200C2492B /* SwinjectStoryboard.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8B2275C274F2D4700C2492B /* cleanMVVMIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2275D274F2D4700C2492B /* cleanMVVMIntegrationTests.swift */,
+				F8B2275F274F2D4700C2492B /* Info.plist */,
+			);
+			path = cleanMVVMIntegrationTests;
+			sourceTree = "<group>";
+		};
 		F8D025B3274DF6F300443798 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +253,9 @@
 				F8DD42AF274DE3DA001C49B8 /* cleanMVVM */,
 				F8DD42C6274DE3DF001C49B8 /* cleanMVVMTests */,
 				F8DD42D1274DE3E0001C49B8 /* cleanMVVMUITests */,
+				F8B2275C274F2D4700C2492B /* cleanMVVMIntegrationTests */,
 				F8DD42AE274DE3DA001C49B8 /* Products */,
+				F8B22708274E745100C2492B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +265,7 @@
 				F8DD42AD274DE3DA001C49B8 /* cleanMVVM.app */,
 				F8DD42C3274DE3DF001C49B8 /* cleanMVVMTests.xctest */,
 				F8DD42CE274DE3E0001C49B8 /* cleanMVVMUITests.xctest */,
+				F8B2275B274F2D4600C2492B /* cleanMVVMIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +303,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F8B2275A274F2D4600C2492B /* cleanMVVMIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B22762274F2D4700C2492B /* Build configuration list for PBXNativeTarget "cleanMVVMIntegrationTests" */;
+			buildPhases = (
+				F8B22757274F2D4600C2492B /* Sources */,
+				F8B22758274F2D4600C2492B /* Frameworks */,
+				F8B22759274F2D4600C2492B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B22761274F2D4700C2492B /* PBXTargetDependency */,
+			);
+			name = cleanMVVMIntegrationTests;
+			productName = cleanMVVMIntegrationTests;
+			productReference = F8B2275B274F2D4600C2492B /* cleanMVVMIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F8DD42AC274DE3D9001C49B8 /* cleanMVVM */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8DD42D7274DE3E0001C49B8 /* Build configuration list for PBXNativeTarget "cleanMVVM" */;
@@ -178,6 +328,7 @@
 				F8DD42A9274DE3D9001C49B8 /* Sources */,
 				F8DD42AA274DE3D9001C49B8 /* Frameworks */,
 				F8DD42AB274DE3D9001C49B8 /* Resources */,
+				F8B2272A274E745200C2492B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +384,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					F8B2275A274F2D4600C2492B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F8DD42AC274DE3D9001C49B8;
+					};
 					F8DD42AC274DE3D9001C49B8 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -261,12 +416,20 @@
 			targets = (
 				F8DD42AC274DE3D9001C49B8 /* cleanMVVM */,
 				F8DD42C2274DE3DF001C49B8 /* cleanMVVMTests */,
+				F8B2275A274F2D4600C2492B /* cleanMVVMIntegrationTests */,
 				F8DD42CD274DE3E0001C49B8 /* cleanMVVMUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F8B22759274F2D4600C2492B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8DD42AB274DE3D9001C49B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,6 +457,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F8B22757274F2D4600C2492B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B2275E274F2D4700C2492B /* cleanMVVMIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8DD42A9274DE3D9001C49B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +494,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F8B22761274F2D4700C2492B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8DD42AC274DE3D9001C49B8 /* cleanMVVM */;
+			targetProxy = F8B22760274F2D4700C2492B /* PBXContainerItemProxy */;
+		};
 		F8DD42C5274DE3DF001C49B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F8DD42AC274DE3D9001C49B8 /* cleanMVVM */;
@@ -355,6 +531,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F8B22763274F2D4700C2492B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49SB9U967X;
+				INFOPLIST_FILE = cleanMVVMIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroxpstudio.cleanMVVMIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cleanMVVM.app/cleanMVVM";
+			};
+			name = Debug;
+		};
+		F8B22764274F2D4700C2492B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49SB9U967X;
+				INFOPLIST_FILE = cleanMVVMIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroxpstudio.cleanMVVMIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cleanMVVM.app/cleanMVVM";
+			};
+			name = Release;
+		};
 		F8DD42D5274DE3E0001C49B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,6 +693,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 49SB9U967X;
 				INFOPLIST_FILE = cleanMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,6 +713,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 49SB9U967X;
 				INFOPLIST_FILE = cleanMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +814,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F8B22762274F2D4700C2492B /* Build configuration list for PBXNativeTarget "cleanMVVMIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B22763274F2D4700C2492B /* Debug */,
+				F8B22764274F2D4700C2492B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F8DD42A8274DE3D9001C49B8 /* Build configuration list for PBXProject "cleanMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

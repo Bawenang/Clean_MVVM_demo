@@ -1,0 +1,11 @@
+$(SRCROOT)/Carthage/Build/RxCocoa.xcframework
+$(SRCROOT)/Carthage/Build/RxRelay.xcframework
+$(SRCROOT)/Carthage/Build/RxSwift.xcframework
+$(SRCROOT)/Carthage/Build/RxTest.xcframework
+$(SRCROOT)/Carthage/Build/RxBlocking.xcframework
+$(SRCROOT)/Carthage/Build/Swinject.xcframework
+$(SRCROOT)/Carthage/Build/SwinjectStoryboard.xcframework
+$(SRCROOT)/Carthage/Build/SwiftDate.xcframework
+$(SRCROOT)/Carthage/Build/IQKeyboardManagerSwift.xcframework
+$(SRCROOT)/Carthage/Build/Alamofire.xcframework
+$(SRCROOT)/Carthage/Build/RxAlamofire.xcframework
