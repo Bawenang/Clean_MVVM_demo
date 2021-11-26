@@ -178,6 +178,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8AE382D2750C5CF009840C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F8B22708274E745100C2492B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,11 +212,56 @@
 			path = cleanMVVMIntegrationTests;
 			sourceTree = "<group>";
 		};
+		F8B2276C274F311800C2492B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8B2276D274F7CAF00C2492B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F8B2276E274F7CB600C2492B /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		F8B2276F274F840700C2492B /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		F8B22770274F842200C2492B /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		F8B22771274F842A00C2492B /* InterfaceAdapters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceAdapters;
+			sourceTree = "<group>";
+		};
 		F8D025B3274DF6F300443798 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				F8B2276F274F840700C2492B /* DTOs */,
+				F8B2276C274F311800C2492B /* ViewModels */,
 				F8D025B4274DF70E00443798 /* Storyboards */,
 				F8D025B5274DF77B00443798 /* ViewControllers */,
+				F8AE382D2750C5CF009840C1 /* Views */,
 				F8DD42B0274DE3DA001C49B8 /* AppDelegate.swift */,
 				F8DD42B2274DE3DA001C49B8 /* SceneDelegate.swift */,
 			);
@@ -236,6 +288,8 @@
 		F8D025B6274E437300443798 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				F8B2276E274F7CB600C2492B /* Use Cases */,
+				F8B2276D274F7CAF00C2492B /* Entities */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -243,6 +297,8 @@
 		F8D025B7274E437A00443798 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F8B22771274F842A00C2492B /* InterfaceAdapters */,
+				F8B22770274F842200C2492B /* DTOs */,
 			);
 			path = Data;
 			sourceTree = "<group>";
