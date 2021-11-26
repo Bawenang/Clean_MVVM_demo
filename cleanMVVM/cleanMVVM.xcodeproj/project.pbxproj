@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE382E2750C64B009840C1 /* GetAllUser.swift */; };
 		F8AE38312750C737009840C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38302750C737009840C1 /* User.swift */; };
+		F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38332750CB89009840C1 /* GetAllUserTests.swift */; };
 		F8AE38382750CF75009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
 		F8AE38392750CF76009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
 		F8AE383A2750CF76009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
@@ -99,7 +101,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F8AE382E2750C64B009840C1 /* GetAllUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUser.swift; sourceTree = "<group>"; };
 		F8AE38302750C737009840C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8AE38332750CB89009840C1 /* GetAllUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUserTests.swift; sourceTree = "<group>"; };
 		F8AE38362750CE92009840C1 /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		F8B22709274E745200C2492B /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		F8B2270A274E745200C2492B /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
@@ -191,6 +195,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F8AE38322750CA03009840C1 /* UseCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE38332750CB89009840C1 /* GetAllUserTests.swift */,
+			);
+			path = UseCaseTests;
+			sourceTree = "<group>";
+		};
 		F8AE38352750CE6F009840C1 /* testHelpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +256,7 @@
 		F8B2276E274F7CB600C2492B /* Use Cases */ = {
 			isa = PBXGroup;
 			children = (
+				F8AE382E2750C64B009840C1 /* GetAllUser.swift */,
 			);
 			path = "Use Cases";
 			sourceTree = "<group>";
@@ -357,6 +370,7 @@
 		F8DD42C6274DE3DF001C49B8 /* cleanMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
+				F8AE38322750CA03009840C1 /* UseCaseTests */,
 				F8DD42C7274DE3DF001C49B8 /* cleanMVVMTests.swift */,
 				F8DD42C9274DE3DF001C49B8 /* Info.plist */,
 			);
@@ -546,6 +560,7 @@
 				F8DD42B1274DE3DA001C49B8 /* AppDelegate.swift in Sources */,
 				F8DD42B3274DE3DA001C49B8 /* SceneDelegate.swift in Sources */,
 				F8AE38312750C737009840C1 /* User.swift in Sources */,
+				F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +570,7 @@
 			files = (
 				F8AE38382750CF75009840C1 /* String+Util.swift in Sources */,
 				F8DD42C8274DE3DF001C49B8 /* cleanMVVMTests.swift in Sources */,
+				F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
