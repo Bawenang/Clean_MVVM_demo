@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F8AE38312750C737009840C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38302750C737009840C1 /* User.swift */; };
+		F8AE38382750CF75009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
+		F8AE38392750CF76009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
+		F8AE383A2750CF76009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
 		F8B22714274E745200C2492B /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22709274E745200C2492B /* Alamofire.xcframework */; };
 		F8B22715274E745200C2492B /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B22709274E745200C2492B /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8B22716274E745200C2492B /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2270A274E745200C2492B /* RxSwift.xcframework */; };
@@ -97,6 +100,7 @@
 
 /* Begin PBXFileReference section */
 		F8AE38302750C737009840C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8AE38362750CE92009840C1 /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		F8B22709274E745200C2492B /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		F8B2270A274E745200C2492B /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		F8B2270B274E745200C2492B /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
@@ -185,6 +189,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F8AE38352750CE6F009840C1 /* testHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE38362750CE92009840C1 /* String+Util.swift */,
+			);
+			path = testHelpers;
 			sourceTree = "<group>";
 		};
 		F8B22708274E745100C2492B /* Frameworks */ = {
@@ -313,6 +325,7 @@
 				F8DD42C6274DE3DF001C49B8 /* cleanMVVMTests */,
 				F8DD42D1274DE3E0001C49B8 /* cleanMVVMUITests */,
 				F8B2275C274F2D4700C2492B /* cleanMVVMIntegrationTests */,
+				F8AE38352750CE6F009840C1 /* testHelpers */,
 				F8DD42AE274DE3DA001C49B8 /* Products */,
 				F8B22708274E745100C2492B /* Frameworks */,
 			);
@@ -520,6 +533,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8AE38392750CF76009840C1 /* String+Util.swift in Sources */,
 				F8B2275E274F2D4700C2492B /* cleanMVVMIntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8AE38382750CF75009840C1 /* String+Util.swift in Sources */,
 				F8DD42C8274DE3DF001C49B8 /* cleanMVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8AE383A2750CF76009840C1 /* String+Util.swift in Sources */,
 				F8DD42D3274DE3E0001C49B8 /* cleanMVVMUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
