@@ -16,6 +16,8 @@
 		F8A6ED4F2751E7C100DF5321 /* UserRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED4E2751E7C100DF5321 /* UserRepositoryTests.swift */; };
 		F8A6ED512752372300DF5321 /* NSError+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED502752372300DF5321 /* NSError+Util.swift */; };
 		F8A6ED522752372400DF5321 /* NSError+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED502752372300DF5321 /* NSError+Util.swift */; };
+		F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5527523C3800DF5321 /* SwinjectData.swift */; };
+		F8A6ED5A27523E2300DF5321 /* SwinjectDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */; };
 		F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE382E2750C64B009840C1 /* GetAllUser.swift */; };
 		F8AE38312750C737009840C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38302750C737009840C1 /* User.swift */; };
 		F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38332750CB89009840C1 /* GetAllUserTests.swift */; };
@@ -118,6 +120,8 @@
 		F8A6ED4B2751DFC700DF5321 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		F8A6ED4E2751E7C100DF5321 /* UserRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserRepositoryTests.swift; path = cleanMVVM/Data/InterfaceAdapters/UserRepositoryTests.swift; sourceTree = SOURCE_ROOT; };
 		F8A6ED502752372300DF5321 /* NSError+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Util.swift"; sourceTree = "<group>"; };
+		F8A6ED5527523C3800DF5321 /* SwinjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectData.swift; sourceTree = "<group>"; };
+		F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectDomain.swift; sourceTree = "<group>"; };
 		F8AE382E2750C64B009840C1 /* GetAllUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUser.swift; sourceTree = "<group>"; };
 		F8AE38302750C737009840C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F8AE38332750CB89009840C1 /* GetAllUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUserTests.swift; sourceTree = "<group>"; };
@@ -245,6 +249,22 @@
 				F8A6ED4E2751E7C100DF5321 /* UserRepositoryTests.swift */,
 			);
 			path = InterfaceAdapterTests;
+			sourceTree = "<group>";
+		};
+		F8A6ED5327523A1F00DF5321 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				F8A6ED5527523C3800DF5321 /* SwinjectData.swift */,
+			);
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		F8A6ED5827523E0B00DF5321 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */,
+			);
+			path = Swinject;
 			sourceTree = "<group>";
 		};
 		F8AE382D2750C5CF009840C1 /* Views */ = {
@@ -388,6 +408,7 @@
 		F8D025B6274E437300443798 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				F8A6ED5827523E0B00DF5321 /* Swinject */,
 				F8B2276E274F7CB600C2492B /* Use Cases */,
 				F8B2276D274F7CAF00C2492B /* Entities */,
 			);
@@ -397,6 +418,7 @@
 		F8D025B7274E437A00443798 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F8A6ED5327523A1F00DF5321 /* Swinject */,
 				F8A6ED3D2751BE6A00DF5321 /* Mappers */,
 				F8A6ED3C2751B8C500DF5321 /* DataSources */,
 				F8B22771274F842A00C2492B /* InterfaceAdapters */,
@@ -640,9 +662,11 @@
 				F8AE3848275124F7009840C1 /* AllUsersResponseModel.swift in Sources */,
 				F8DD42B1274DE3DA001C49B8 /* AppDelegate.swift in Sources */,
 				F8DD42B3274DE3DA001C49B8 /* SceneDelegate.swift in Sources */,
+				F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */,
 				F8AE383D2750E38B009840C1 /* UserResponseModel.swift in Sources */,
 				F8AE38312750C737009840C1 /* User.swift in Sources */,
 				F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */,
+				F8A6ED5A27523E2300DF5321 /* SwinjectDomain.swift in Sources */,
 				F8AE384527511714009840C1 /* ApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
