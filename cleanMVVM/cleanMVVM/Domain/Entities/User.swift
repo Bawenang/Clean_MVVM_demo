@@ -8,19 +8,19 @@
 import Foundation
 
 struct User {
-    enum Gender {
-        case male
-        case female
-        case other
+    enum Gender: String {
+        case male = "male"
+        case female = "female"
     }
-    enum Status {
-        case active
-        case inactive
+    
+    enum Status: String {
+        case active = "active"
+        case inactive = "inactive"
     }
     
     let id: Int
     let name: String
     let email: String
-    let gender: Gender
-    let status: Status
+    let gender: Gender?
+    let status: Status?
 }
