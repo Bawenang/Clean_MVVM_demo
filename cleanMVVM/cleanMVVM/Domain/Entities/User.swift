@@ -22,5 +22,17 @@ struct User {
     let name: String
     let email: String
     let gender: Gender?
-    let status: Status?
+    let status: Status
+    
+    init(id: Int,
+         name: String,
+         email: String,
+         gender: Gender?,
+         status: Status?) {
+        self.id = id
+        self.name = name
+        self.email = email
+        self.gender = gender
+        self.status = status ?? .inactive
+    }
 }

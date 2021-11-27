@@ -38,4 +38,14 @@ class UserTests: XCTestCase {
         let status = User.Status(rawValue: .random(length: 20))
         XCTAssertNil(status)
     }
+    
+    func testInit_WithNilStatus_ShouldSetWithInactive() throws {
+        let actualUser = User(id: .random(in: 1...1000),
+                        name: .random(length: 30),
+                        email: .randomEmailAddress(length: 30),
+                        gender: .random(),
+                        status: nil)
+        
+        XCTAssertEqual(.inactive, actualUser.status)
+    }
 }

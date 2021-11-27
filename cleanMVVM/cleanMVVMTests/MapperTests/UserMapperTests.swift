@@ -17,7 +17,7 @@ class UserMapperTests: XCTestCase {
         XCTAssertEqual(responseModel.data.first?.name, actualUser?.name)
         XCTAssertEqual(responseModel.data.first?.email, actualUser?.email)
         XCTAssertEqual(responseModel.data.first?.gender, actualUser?.gender?.rawValue)
-        XCTAssertEqual(responseModel.data.first?.status, actualUser?.status?.rawValue)
+        XCTAssertEqual(responseModel.data.first?.status, actualUser?.status.rawValue)
     }
 
     func testMapFromUserResponseModel() throws {
@@ -28,7 +28,7 @@ class UserMapperTests: XCTestCase {
         XCTAssertEqual(responseModel.name, actualUser.name)
         XCTAssertEqual(responseModel.email, actualUser.email)
         XCTAssertEqual(responseModel.gender, actualUser.gender?.rawValue)
-        XCTAssertEqual(responseModel.status, actualUser.status?.rawValue)
+        XCTAssertEqual(responseModel.status, actualUser.status.rawValue)
     }
     
     func testMapFromUserResponseModel_WithUnknownGenderAndStatus() throws {
@@ -39,7 +39,7 @@ class UserMapperTests: XCTestCase {
         XCTAssertEqual(responseModel.name, actualUser.name)
         XCTAssertEqual(responseModel.email, actualUser.email)
         XCTAssertNil(actualUser.gender)
-        XCTAssertNil(actualUser.status)
+        XCTAssertEqual(.inactive, actualUser.status)
     }
 }
 
