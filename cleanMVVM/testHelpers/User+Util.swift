@@ -17,8 +17,8 @@ extension User: Equatable {
             lhs.status == rhs.status
     }
     
-    static func random() -> User {
-        return User(id: .random(in: 1...1000),
+    static func random(id: Int = .random(in: 1...1000)) -> User {
+        return User(id: id,
                     name: .random(length: 30),
                     email: .randomEmailAddress(length: 30),
                     gender: .random(),

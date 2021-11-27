@@ -30,8 +30,8 @@ class GetAllUserTests: XCTestCase {
         XCTAssertEqual(expectedUsers, actualUsers)
     }
 
-    func testGet_WhenFailed_ShouldReturnError() throws {
-        let expectedError = randomError()
+    func testGet_WhenFailed_ShouldThrowError() throws {
+        let expectedError = NSError.random()
         let useCase = useCaseUnderTest(allUsersProvider: { .error(expectedError) })
         
         XCTAssertThrowsError(try useCase.get().toBlocking(timeout: 0.1).first()) {
@@ -45,8 +45,4 @@ private func useCaseUnderTest(
     allUsersProvider: @escaping () -> Single<[User]> = { .just([.random()]) }
 ) -> GetAllUser {
     return GetAllUser(allUsersProvider: allUsersProvider)
-}
-
-private func randomError() -> NSError {
-    return NSError(domain: .random(length: 20), code: .random(in: 1...100), userInfo: nil)
 }
