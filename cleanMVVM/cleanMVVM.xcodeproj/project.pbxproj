@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F8124A6D2753184E009547FA /* AvatarMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8124A6C2753184E009547FA /* AvatarMapper.swift */; };
 		F8124A7227531BF4009547FA /* AvatarMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8124A7127531BF4009547FA /* AvatarMapperTests.swift */; };
+		F83EE76727535D82003E2120 /* UserCellViewParamMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EE76627535D82003E2120 /* UserCellViewParamMapper.swift */; };
+		F83EE769275364B6003E2120 /* UserCellViewParamMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EE768275364B6003E2120 /* UserCellViewParamMapperTests.swift */; };
 		F8A6ED3F2751BE9600DF5321 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED3E2751BE9600DF5321 /* UserMapper.swift */; };
 		F8A6ED422751C63200DF5321 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED412751C63200DF5321 /* UserTests.swift */; };
 		F8A6ED452751C6B600DF5321 /* User+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED432751C6AD00DF5321 /* User+Util.swift */; };
@@ -20,6 +22,7 @@
 		F8A6ED522752372400DF5321 /* NSError+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED502752372300DF5321 /* NSError+Util.swift */; };
 		F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5527523C3800DF5321 /* SwinjectData.swift */; };
 		F8A6ED5A27523E2300DF5321 /* SwinjectDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */; };
+		F8A6ED5E275277E600DF5321 /* UserCellViewParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5D275277E500DF5321 /* UserCellViewParam.swift */; };
 		F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE382E2750C64B009840C1 /* GetAllUser.swift */; };
 		F8AE38312750C737009840C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38302750C737009840C1 /* User.swift */; };
 		F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38332750CB89009840C1 /* GetAllUserTests.swift */; };
@@ -119,6 +122,8 @@
 /* Begin PBXFileReference section */
 		F8124A6C2753184E009547FA /* AvatarMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMapper.swift; sourceTree = "<group>"; };
 		F8124A7127531BF4009547FA /* AvatarMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMapperTests.swift; sourceTree = "<group>"; };
+		F83EE76627535D82003E2120 /* UserCellViewParamMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewParamMapper.swift; sourceTree = "<group>"; };
+		F83EE768275364B6003E2120 /* UserCellViewParamMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewParamMapperTests.swift; sourceTree = "<group>"; };
 		F8A6ED3E2751BE9600DF5321 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
 		F8A6ED412751C63200DF5321 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		F8A6ED432751C6AD00DF5321 /* User+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Util.swift"; sourceTree = "<group>"; };
@@ -128,6 +133,7 @@
 		F8A6ED502752372300DF5321 /* NSError+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Util.swift"; sourceTree = "<group>"; };
 		F8A6ED5527523C3800DF5321 /* SwinjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectData.swift; sourceTree = "<group>"; };
 		F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectDomain.swift; sourceTree = "<group>"; };
+		F8A6ED5D275277E500DF5321 /* UserCellViewParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewParam.swift; sourceTree = "<group>"; };
 		F8AE382E2750C64B009840C1 /* GetAllUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUser.swift; sourceTree = "<group>"; };
 		F8AE38302750C737009840C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F8AE38332750CB89009840C1 /* GetAllUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUserTests.swift; sourceTree = "<group>"; };
@@ -224,6 +230,7 @@
 			children = (
 				F8124A6C2753184E009547FA /* AvatarMapper.swift */,
 				F8B9E73A2753270A00B04567 /* UserCellBackgroundMapper.swift */,
+				F83EE76627535D82003E2120 /* UserCellViewParamMapper.swift */,
 			);
 			path = Mappers;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 				F8A6ED492751CC3F00DF5321 /* UserMapperTests.swift */,
 				F8124A7127531BF4009547FA /* AvatarMapperTests.swift */,
 				F8B9E73C27532B3E00B04567 /* UserCellBackgroundMapperTests.swift */,
+				F83EE768275364B6003E2120 /* UserCellViewParamMapperTests.swift */,
 			);
 			path = MapperTests;
 			sourceTree = "<group>";
@@ -373,6 +381,7 @@
 		F8B2276F274F840700C2492B /* DTOs */ = {
 			isa = PBXGroup;
 			children = (
+				F8A6ED5D275277E500DF5321 /* UserCellViewParam.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
@@ -679,10 +688,12 @@
 				F8A6ED3F2751BE9600DF5321 /* UserMapper.swift in Sources */,
 				F8DD42B5274DE3DA001C49B8 /* ViewController.swift in Sources */,
 				F8A6ED4C2751DFC700DF5321 /* UserRepository.swift in Sources */,
+				F8A6ED5E275277E600DF5321 /* UserCellViewParam.swift in Sources */,
 				F8AE3848275124F7009840C1 /* AllUsersResponseModel.swift in Sources */,
 				F8DD42B1274DE3DA001C49B8 /* AppDelegate.swift in Sources */,
 				F8DD42B3274DE3DA001C49B8 /* SceneDelegate.swift in Sources */,
 				F8124A6D2753184E009547FA /* AvatarMapper.swift in Sources */,
+				F83EE76727535D82003E2120 /* UserCellViewParamMapper.swift in Sources */,
 				F8B9E73B2753270A00B04567 /* UserCellBackgroundMapper.swift in Sources */,
 				F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */,
 				F8AE383D2750E38B009840C1 /* UserResponseModel.swift in Sources */,
@@ -703,6 +714,7 @@
 				F8A6ED512752372300DF5321 /* NSError+Util.swift in Sources */,
 				F8AE38382750CF75009840C1 /* String+Util.swift in Sources */,
 				F8A6ED4A2751CC3F00DF5321 /* UserMapperTests.swift in Sources */,
+				F83EE769275364B6003E2120 /* UserCellViewParamMapperTests.swift in Sources */,
 				F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */,
 				F8A6ED4F2751E7C100DF5321 /* UserRepositoryTests.swift in Sources */,
 				F8A6ED452751C6B600DF5321 /* User+Util.swift in Sources */,
@@ -922,6 +934,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 49SB9U967X;
 				INFOPLIST_FILE = cleanMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -942,6 +955,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 49SB9U967X;
 				INFOPLIST_FILE = cleanMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
