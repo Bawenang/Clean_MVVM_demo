@@ -7,17 +7,15 @@
 
 import UIKit
 
-let avatarImages = [
-    "male": UIImage.init(named: "maleAvatar"),
-    "female": UIImage.init(named: "femaleAvatar")
-]
-
 struct AvatarMapper {
+    private static let avatarImages = [
+        User.Gender.male: UIImage.init(named: "maleAvatar"),
+        User.Gender.female: UIImage.init(named: "femaleAvatar")
+    ]
+    
     static func map(from gender: User.Gender?) -> UIImage? {
-        guard let gender = gender else { return nil }
-        switch gender {
-        case .male: return avatarImages["male"]!
-        case .female: return avatarImages["female"]!
-        }
+        guard let gender = gender,
+              let image = avatarImages[gender] else { return nil }
+        return image
     }
 }
