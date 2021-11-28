@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8124A6D2753184E009547FA /* AvatarMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8124A6C2753184E009547FA /* AvatarMapper.swift */; };
+		F8124A7227531BF4009547FA /* AvatarMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8124A7127531BF4009547FA /* AvatarMapperTests.swift */; };
 		F8A6ED3F2751BE9600DF5321 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED3E2751BE9600DF5321 /* UserMapper.swift */; };
 		F8A6ED422751C63200DF5321 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED412751C63200DF5321 /* UserTests.swift */; };
 		F8A6ED452751C6B600DF5321 /* User+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED432751C6AD00DF5321 /* User+Util.swift */; };
@@ -113,6 +115,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F8124A6C2753184E009547FA /* AvatarMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMapper.swift; sourceTree = "<group>"; };
+		F8124A7127531BF4009547FA /* AvatarMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMapperTests.swift; sourceTree = "<group>"; };
 		F8A6ED3E2751BE9600DF5321 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
 		F8A6ED412751C63200DF5321 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		F8A6ED432751C6AD00DF5321 /* User+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Util.swift"; sourceTree = "<group>"; };
@@ -211,6 +215,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8124A6B27531817009547FA /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				F8124A6C2753184E009547FA /* AvatarMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
 		F8A6ED3C2751B8C500DF5321 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A6ED492751CC3F00DF5321 /* UserMapperTests.swift */,
+				F8124A7127531BF4009547FA /* AvatarMapperTests.swift */,
 			);
 			path = MapperTests;
 			sourceTree = "<group>";
@@ -377,6 +390,7 @@
 		F8D025B3274DF6F300443798 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				F8124A6B27531817009547FA /* Mappers */,
 				F8B2276F274F840700C2492B /* DTOs */,
 				F8B2276C274F311800C2492B /* ViewModels */,
 				F8D025B4274DF70E00443798 /* Storyboards */,
@@ -662,6 +676,7 @@
 				F8AE3848275124F7009840C1 /* AllUsersResponseModel.swift in Sources */,
 				F8DD42B1274DE3DA001C49B8 /* AppDelegate.swift in Sources */,
 				F8DD42B3274DE3DA001C49B8 /* SceneDelegate.swift in Sources */,
+				F8124A6D2753184E009547FA /* AvatarMapper.swift in Sources */,
 				F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */,
 				F8AE383D2750E38B009840C1 /* UserResponseModel.swift in Sources */,
 				F8AE38312750C737009840C1 /* User.swift in Sources */,
@@ -676,6 +691,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A6ED422751C63200DF5321 /* UserTests.swift in Sources */,
+				F8124A7227531BF4009547FA /* AvatarMapperTests.swift in Sources */,
 				F8A6ED512752372300DF5321 /* NSError+Util.swift in Sources */,
 				F8AE38382750CF75009840C1 /* String+Util.swift in Sources */,
 				F8A6ED4A2751CC3F00DF5321 /* UserMapperTests.swift in Sources */,
