@@ -14,8 +14,8 @@ final class GetAllUser {
         self.allUsersProvider = allUsersProvider
     }
     
-    func get() -> Observable<[User]> {
-        return allUsersProvider().asObservable()
+    func get() -> Single<[User]> {
+        return allUsersProvider()
     }
 }
 
