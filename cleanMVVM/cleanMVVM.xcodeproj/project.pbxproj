@@ -16,6 +16,7 @@
 		F8A2E524275378AE00D78832 /* UserCellViewParam+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2E522275378AE00D78832 /* UserCellViewParam+Util.swift */; };
 		F8A2E52727537D8800D78832 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2E52527537D8800D78832 /* UserTableViewCell.swift */; };
 		F8A2E52827537D8800D78832 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A2E52627537D8800D78832 /* UserTableViewCell.xib */; };
+		F8A2E52B2753BCDE00D78832 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2E52A2753BCDE00D78832 /* SwinjectStoryboard.swift */; };
 		F8A6ED3F2751BE9600DF5321 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED3E2751BE9600DF5321 /* UserMapper.swift */; };
 		F8A6ED422751C63200DF5321 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED412751C63200DF5321 /* UserTests.swift */; };
 		F8A6ED452751C6B600DF5321 /* User+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED432751C6AD00DF5321 /* User+Util.swift */; };
@@ -134,6 +135,7 @@
 		F8A2E522275378AE00D78832 /* UserCellViewParam+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserCellViewParam+Util.swift"; sourceTree = "<group>"; };
 		F8A2E52527537D8800D78832 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		F8A2E52627537D8800D78832 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		F8A2E52A2753BCDE00D78832 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
 		F8A6ED3E2751BE9600DF5321 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
 		F8A6ED412751C63200DF5321 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		F8A6ED432751C6AD00DF5321 /* User+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Util.swift"; sourceTree = "<group>"; };
@@ -252,6 +254,14 @@
 				F8A2E520275376CE00D78832 /* MainViewModelTests.swift */,
 			);
 			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		F8A2E5292753BC7200D78832 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2E52A2753BCDE00D78832 /* SwinjectStoryboard.swift */,
+			);
+			path = Swinject;
 			sourceTree = "<group>";
 		};
 		F8A6ED3C2751B8C500DF5321 /* DataSources */ = {
@@ -428,6 +438,7 @@
 		F8D025B3274DF6F300443798 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				F8A2E5292753BC7200D78832 /* Swinject */,
 				F8124A6B27531817009547FA /* Mappers */,
 				F8B2276F274F840700C2492B /* DTOs */,
 				F8B2276C274F311800C2492B /* ViewModels */,
@@ -711,6 +722,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A2E52B2753BCDE00D78832 /* SwinjectStoryboard.swift in Sources */,
 				F8A6ED3F2751BE9600DF5321 /* UserMapper.swift in Sources */,
 				F8DD42B5274DE3DA001C49B8 /* MainViewController.swift in Sources */,
 				F8A6ED4C2751DFC700DF5321 /* UserRepository.swift in Sources */,
