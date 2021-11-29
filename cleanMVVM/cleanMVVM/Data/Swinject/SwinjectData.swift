@@ -21,11 +21,6 @@ struct SwinjectData {
             return UserRepositoryAdapter(api: api.getAllUsers)
         }
         
-        container.register(GetAllUser.self) { r in
-            let api = r.resolve(UserRepositoryInterface.self)!
-            return GetAllUser(allUsersProvider: api.retrieveAll)
-        }
-        
         return container
     }
 }

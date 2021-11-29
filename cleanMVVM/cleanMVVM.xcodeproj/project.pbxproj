@@ -22,17 +22,19 @@
 		F8A6ED452751C6B600DF5321 /* User+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED432751C6AD00DF5321 /* User+Util.swift */; };
 		F8A6ED462751C6B600DF5321 /* User+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED432751C6AD00DF5321 /* User+Util.swift */; };
 		F8A6ED4A2751CC3F00DF5321 /* UserMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED492751CC3F00DF5321 /* UserMapperTests.swift */; };
-		F8A6ED4C2751DFC700DF5321 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED4B2751DFC700DF5321 /* UserRepository.swift */; };
-		F8A6ED4F2751E7C100DF5321 /* UserRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED4E2751E7C100DF5321 /* UserRepositoryTests.swift */; };
+		F8A6ED4C2751DFC700DF5321 /* UserRepositoryAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED4B2751DFC700DF5321 /* UserRepositoryAdapter.swift */; };
 		F8A6ED512752372300DF5321 /* NSError+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED502752372300DF5321 /* NSError+Util.swift */; };
 		F8A6ED522752372400DF5321 /* NSError+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED502752372300DF5321 /* NSError+Util.swift */; };
 		F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5527523C3800DF5321 /* SwinjectData.swift */; };
 		F8A6ED5A27523E2300DF5321 /* SwinjectDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */; };
 		F8A6ED5C2752490A00DF5321 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5B2752490900DF5321 /* MainViewModel.swift */; };
 		F8A6ED5E275277E600DF5321 /* UserCellViewParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6ED5D275277E500DF5321 /* UserCellViewParam.swift */; };
-		F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE382E2750C64B009840C1 /* GetAllUser.swift */; };
+		F8AC6D8C275451E600689677 /* UserRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC6D8B275451E600689677 /* UserRepositoryInterface.swift */; };
+		F8AC6D8F275453A700689677 /* GetAllUsersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC6D8E275453A700689677 /* GetAllUsersUseCase.swift */; };
+		F8AC6D912754588F00689677 /* UserRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC6D902754588F00689677 /* UserRepositoryTests.swift */; };
+		F8AE382F2750C64B009840C1 /* GetAllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE382E2750C64B009840C1 /* GetAllUsers.swift */; };
 		F8AE38312750C737009840C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38302750C737009840C1 /* User.swift */; };
-		F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38332750CB89009840C1 /* GetAllUserTests.swift */; };
+		F8AE38342750CB89009840C1 /* GetAllUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38332750CB89009840C1 /* GetAllUsersTests.swift */; };
 		F8AE38382750CF75009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
 		F8AE38392750CF76009840C1 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE38362750CE92009840C1 /* String+Util.swift */; };
 		F8AE383D2750E38B009840C1 /* UserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AE383C2750E38B009840C1 /* UserResponseModel.swift */; };
@@ -140,16 +142,18 @@
 		F8A6ED412751C63200DF5321 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		F8A6ED432751C6AD00DF5321 /* User+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Util.swift"; sourceTree = "<group>"; };
 		F8A6ED492751CC3F00DF5321 /* UserMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapperTests.swift; sourceTree = "<group>"; };
-		F8A6ED4B2751DFC700DF5321 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
-		F8A6ED4E2751E7C100DF5321 /* UserRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserRepositoryTests.swift; path = cleanMVVM/Data/InterfaceAdapters/UserRepositoryTests.swift; sourceTree = SOURCE_ROOT; };
+		F8A6ED4B2751DFC700DF5321 /* UserRepositoryAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryAdapter.swift; sourceTree = "<group>"; };
 		F8A6ED502752372300DF5321 /* NSError+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Util.swift"; sourceTree = "<group>"; };
 		F8A6ED5527523C3800DF5321 /* SwinjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectData.swift; sourceTree = "<group>"; };
 		F8A6ED5927523E2300DF5321 /* SwinjectDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectDomain.swift; sourceTree = "<group>"; };
 		F8A6ED5B2752490900DF5321 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		F8A6ED5D275277E500DF5321 /* UserCellViewParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewParam.swift; sourceTree = "<group>"; };
-		F8AE382E2750C64B009840C1 /* GetAllUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUser.swift; sourceTree = "<group>"; };
+		F8AC6D8B275451E600689677 /* UserRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryInterface.swift; sourceTree = "<group>"; };
+		F8AC6D8E275453A700689677 /* GetAllUsersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsersUseCase.swift; sourceTree = "<group>"; };
+		F8AC6D902754588F00689677 /* UserRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepositoryTests.swift; sourceTree = "<group>"; };
+		F8AE382E2750C64B009840C1 /* GetAllUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsers.swift; sourceTree = "<group>"; };
 		F8AE38302750C737009840C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F8AE38332750CB89009840C1 /* GetAllUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUserTests.swift; sourceTree = "<group>"; };
+		F8AE38332750CB89009840C1 /* GetAllUsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsersTests.swift; sourceTree = "<group>"; };
 		F8AE38362750CE92009840C1 /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		F8AE383C2750E38B009840C1 /* UserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseModel.swift; sourceTree = "<group>"; };
 		F8AE384427511714009840C1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
@@ -299,12 +303,12 @@
 			path = MapperTests;
 			sourceTree = "<group>";
 		};
-		F8A6ED4D2751E7A100DF5321 /* InterfaceAdapterTests */ = {
+		F8A6ED4D2751E7A100DF5321 /* AdapterTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8A6ED4E2751E7C100DF5321 /* UserRepositoryTests.swift */,
+				F8AC6D902754588F00689677 /* UserRepositoryTests.swift */,
 			);
-			path = InterfaceAdapterTests;
+			path = AdapterTests;
 			sourceTree = "<group>";
 		};
 		F8A6ED5327523A1F00DF5321 /* Swinject */ = {
@@ -323,6 +327,22 @@
 			path = Swinject;
 			sourceTree = "<group>";
 		};
+		F8AC6D8A275451A100689677 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC6D8B275451E600689677 /* UserRepositoryInterface.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F8AC6D8D2754535F00689677 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC6D8E275453A700689677 /* GetAllUsersUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 		F8AE382D2750C5CF009840C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,7 +355,7 @@
 		F8AE38322750CA03009840C1 /* UseCaseTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8AE38332750CB89009840C1 /* GetAllUserTests.swift */,
+				F8AE38332750CB89009840C1 /* GetAllUsersTests.swift */,
 			);
 			path = UseCaseTests;
 			sourceTree = "<group>";
@@ -403,12 +423,12 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		F8B2276E274F7CB600C2492B /* Use Cases */ = {
+		F8B2276E274F7CB600C2492B /* UseCaseImpls */ = {
 			isa = PBXGroup;
 			children = (
-				F8AE382E2750C64B009840C1 /* GetAllUser.swift */,
+				F8AE382E2750C64B009840C1 /* GetAllUsers.swift */,
 			);
-			path = "Use Cases";
+			path = UseCaseImpls;
 			sourceTree = "<group>";
 		};
 		F8B2276F274F840700C2492B /* DTOs */ = {
@@ -427,18 +447,19 @@
 			path = DTOs;
 			sourceTree = "<group>";
 		};
-		F8B22771274F842A00C2492B /* InterfaceAdapters */ = {
+		F8B22771274F842A00C2492B /* Adapters */ = {
 			isa = PBXGroup;
 			children = (
-				F8A6ED4B2751DFC700DF5321 /* UserRepository.swift */,
+				F8A6ED4B2751DFC700DF5321 /* UserRepositoryAdapter.swift */,
 			);
-			path = InterfaceAdapters;
+			path = Adapters;
 			sourceTree = "<group>";
 		};
 		F8D025B3274DF6F300443798 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				F8A2E5292753BC7200D78832 /* Swinject */,
+				F8AC6D8D2754535F00689677 /* UseCases */,
 				F8124A6B27531817009547FA /* Mappers */,
 				F8B2276F274F840700C2492B /* DTOs */,
 				F8B2276C274F311800C2492B /* ViewModels */,
@@ -472,8 +493,9 @@
 			isa = PBXGroup;
 			children = (
 				F8A6ED5827523E0B00DF5321 /* Swinject */,
-				F8B2276E274F7CB600C2492B /* Use Cases */,
+				F8B2276E274F7CB600C2492B /* UseCaseImpls */,
 				F8B2276D274F7CAF00C2492B /* Entities */,
+				F8AC6D8A275451A100689677 /* Interfaces */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -484,7 +506,7 @@
 				F8A6ED5327523A1F00DF5321 /* Swinject */,
 				F8A6ED3D2751BE6A00DF5321 /* Mappers */,
 				F8A6ED3C2751B8C500DF5321 /* DataSources */,
-				F8B22771274F842A00C2492B /* InterfaceAdapters */,
+				F8B22771274F842A00C2492B /* Adapters */,
 				F8B22770274F842200C2492B /* DTOs */,
 			);
 			path = Data;
@@ -530,7 +552,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A2E51F275370FD00D78832 /* ViewModelTests */,
-				F8A6ED4D2751E7A100DF5321 /* InterfaceAdapterTests */,
+				F8A6ED4D2751E7A100DF5321 /* AdapterTests */,
 				F8A6ED482751CC2200DF5321 /* MapperTests */,
 				F8A6ED402751C54800DF5321 /* EntityTests */,
 				F8AE38322750CA03009840C1 /* UseCaseTests */,
@@ -725,20 +747,22 @@
 				F8A2E52B2753BCDE00D78832 /* SwinjectStoryboard.swift in Sources */,
 				F8A6ED3F2751BE9600DF5321 /* UserMapper.swift in Sources */,
 				F8DD42B5274DE3DA001C49B8 /* MainViewController.swift in Sources */,
-				F8A6ED4C2751DFC700DF5321 /* UserRepository.swift in Sources */,
+				F8A6ED4C2751DFC700DF5321 /* UserRepositoryAdapter.swift in Sources */,
 				F8A6ED5E275277E600DF5321 /* UserCellViewParam.swift in Sources */,
 				F8AE3848275124F7009840C1 /* AllUsersResponseModel.swift in Sources */,
 				F8DD42B1274DE3DA001C49B8 /* AppDelegate.swift in Sources */,
 				F8A6ED5C2752490A00DF5321 /* MainViewModel.swift in Sources */,
 				F8DD42B3274DE3DA001C49B8 /* SceneDelegate.swift in Sources */,
 				F8124A6D2753184E009547FA /* AvatarMapper.swift in Sources */,
+				F8AC6D8F275453A700689677 /* GetAllUsersUseCase.swift in Sources */,
 				F83EE76727535D82003E2120 /* UserCellViewParamMapper.swift in Sources */,
 				F8A2E52727537D8800D78832 /* UserTableViewCell.swift in Sources */,
+				F8AC6D8C275451E600689677 /* UserRepositoryInterface.swift in Sources */,
 				F8B9E73B2753270A00B04567 /* UserCellBackgroundMapper.swift in Sources */,
 				F8A6ED5627523C3800DF5321 /* SwinjectData.swift in Sources */,
 				F8AE383D2750E38B009840C1 /* UserResponseModel.swift in Sources */,
 				F8AE38312750C737009840C1 /* User.swift in Sources */,
-				F8AE382F2750C64B009840C1 /* GetAllUser.swift in Sources */,
+				F8AE382F2750C64B009840C1 /* GetAllUsers.swift in Sources */,
 				F8A6ED5A27523E2300DF5321 /* SwinjectDomain.swift in Sources */,
 				F8AE384527511714009840C1 /* ApiService.swift in Sources */,
 			);
@@ -757,8 +781,8 @@
 				F8A2E521275376CE00D78832 /* MainViewModelTests.swift in Sources */,
 				F8A6ED4A2751CC3F00DF5321 /* UserMapperTests.swift in Sources */,
 				F83EE769275364B6003E2120 /* UserCellViewParamMapperTests.swift in Sources */,
-				F8AE38342750CB89009840C1 /* GetAllUserTests.swift in Sources */,
-				F8A6ED4F2751E7C100DF5321 /* UserRepositoryTests.swift in Sources */,
+				F8AE38342750CB89009840C1 /* GetAllUsersTests.swift in Sources */,
+				F8AC6D912754588F00689677 /* UserRepositoryTests.swift in Sources */,
 				F8A6ED452751C6B600DF5321 /* User+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

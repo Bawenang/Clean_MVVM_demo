@@ -8,10 +8,6 @@
 import Foundation
 import RxSwift
 
-protocol UserRepositoryInterface {
-    func retrieveAll() -> Single<[User]>
-}
-
 class UserRepositoryAdapter: UserRepositoryInterface {
     private let api: () -> Single<AllUsersResponseModel>
     init(api: @escaping () -> Single<AllUsersResponseModel>) {

@@ -24,7 +24,7 @@ extension SwinjectStoryboard {
     }
     class func setupViewModels() {
         defaultContainer.register(MainViewModelling.self) { _ in
-            let getAllUserUseCase = SwinjectDomain.container.resolve(GetAllUser.self)!
+            let getAllUserUseCase = SwinjectDomain.container.resolve(GetAllUsersUseCase.self)!
             return MainViewModel(userListProvider: getAllUserUseCase.get)
         }
     }

@@ -1,5 +1,5 @@
 //
-//  GetAllUserTests.swift
+//  GetAllUsersTests.swift
 //  cleanMVVMTests
 //
 //  Created by Bawenang RPP on 26/11/21.
@@ -10,7 +10,7 @@ import XCTest
 import RxSwift
 import RxBlocking
 
-class GetAllUserTests: XCTestCase {
+class GetAllUsersTests: XCTestCase {
     private var disposeBag: DisposeBag!
 
     override func setUpWithError() throws {
@@ -43,6 +43,6 @@ class GetAllUserTests: XCTestCase {
 
 private func useCaseUnderTest(
     allUsersProvider: @escaping () -> Single<[User]> = { .just([.random()]) }
-) -> GetAllUser {
-    return GetAllUser(allUsersProvider: allUsersProvider)
+) -> GetAllUsersImpl {
+    return GetAllUsersImpl(allUsersProvider: allUsersProvider)
 }

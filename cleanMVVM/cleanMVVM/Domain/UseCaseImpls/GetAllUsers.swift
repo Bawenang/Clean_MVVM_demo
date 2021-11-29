@@ -1,5 +1,5 @@
 //
-//  GetAllUser.swift
+//  GetAllUsers.swift
 //  cleanMVVM
 //
 //  Created by Bawenang RPP on 26/11/21.
@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 
-final class GetAllUser {
+final class GetAllUsersImpl: GetAllUsersUseCase {
     private let allUsersProvider: () -> Single<[User]>
     init(allUsersProvider: @escaping () -> Single<[User]>) {
         self.allUsersProvider = allUsersProvider
@@ -18,4 +18,3 @@ final class GetAllUser {
         return allUsersProvider()
     }
 }
-
